@@ -1,5 +1,5 @@
 # GAN_With_Content_And_Structure
-- This repository is the implementation of following the idea:
+- This repository is the implementation of the following idea:
   - We  aim  to  learn  better  representations  by  exploiting
   both  content  (or  feature)  information  of  nodes  and  structural
   information  of  the  network.  Our  approach  leverages  generative
@@ -7,3 +7,18 @@
   discriminator in a minimax game. While the generator estimates
   the   neighborhood   of   a   node,   the   discriminator   distinguishes
   between the presence or absence of a link for a pair of node
+
+# Requirements
+- The code has been tested running under Python 3.6.5, with the following packages installed (along with their dependencies):
+ - tensorflow == 1.8.0
+ - numpy == 1.14.3
+ - tqdm == 4.23.4 (for displaying the progress bar)
+ - sklearn == 0.19.1
+ 
+# Files in the folder
+- data/: training and test data
+- feature/: contains feature for each node. The Features are binary values representing the presence or absence of the features
+- pre_train/: pre-trained node embeddings
+- results/: evaluation results and the learned embeddings of the generator and the discriminator
+- src/: source codes 
+- precisionAndRecallEvaluation/: for calculating precision values after best embeddings have been learnt
