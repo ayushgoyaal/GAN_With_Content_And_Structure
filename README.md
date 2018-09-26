@@ -1,6 +1,6 @@
 # GAN_With_Content_And_Structure
 - This repository is the implementation of following the idea:
-  -We  aim  to  learn  better  representations  by  exploiting
+  - We  aim  to  learn  better  representations  by  exploiting
   both  content  (or  feature)  information  of  nodes  and  structural
   information  of  the  network.  Our  approach  leverages  generative
   adversarial   networks   to   learn   embedding   for   generator   and
