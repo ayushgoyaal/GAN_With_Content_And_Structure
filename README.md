@@ -24,7 +24,7 @@
 - precisionAndRecallEvaluation/: for calculating precision values after best embeddings have been learnt
 
 # Input Format
-- Data Files: Each line contains an edge information i.e. a sorce and a destination node. Node id starts from 0 to N-1(where N is the number of nodes in the graph)
+- Data Files: Each line contains an edge information i.e. a sorce and a destination node. Node id starts from 0 to N-1( where N is the number of nodes in the graph).
 - Features files: It contains feature for each of the nodes. Each line contains a node id and a 1/0 entries depending on the presence/absence of a particular feature.
 
 
